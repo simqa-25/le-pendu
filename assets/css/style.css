@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+#gameContainer {
+  margin: auto;
+  padding: 20px;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+#hangman {
+  margin-bottom: 20px;
+}
+
+#hangman img {
+  width: 150px; 
+  height: auto;
+}
+
+#wordDisplay {
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+
+#lettersProposed {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+#letterInput {
+  padding: 5px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+#submitLetter {
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#restartButton {
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  display: none;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeu du Pendu</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <div id="gameContainer">
+      <h1>Jeu du Pendu</h1>
+
+
+      <div id="hangman">
+        <img
+          src="/assets/images/pendu-img1.png"
+          alt="Pendu étape 1"
+          id="penduImage"
+        />
+      </div>
+
+
+      <div id="wordDisplay"></div>
+
+    
+      <div id="lettersProposed"></div>
+
+  
+      <input
+        type="text"
+        id="letterInput"
+        maxlength="1"
+        placeholder="Proposez une lettre"
+      />
+
+    
+      <button id="submitLetter">Proposer</button>
+
+      <div id="message"></div>
+
+    
+      <button id="restartButton" style="display: none">Rejouer</button>
+    </div>
+
+  
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>
